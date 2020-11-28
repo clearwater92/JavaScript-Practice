@@ -1,12 +1,12 @@
 const getSlides = document.querySelectorAll('.slide');
 let currentSlide = 0;
 
-// 슬라이드 수를 감소
+// 슬라이드 수를 증가
 const nextSlide = () => {
     changeSlide(currentSlide + 1);
 };
 
-// 슬라이드 수를 증가
+// 슬라이드 수를 감소
 const prevSlide = () => {
     changeSlide(currentSlide - 1);
 }
